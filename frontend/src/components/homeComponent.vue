@@ -18,9 +18,109 @@
           <button class="delete" @click="modalClose" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
-          <!-- Content ... -->
+          <!-- Add your make API call in modalActive method so that
+          on each click of button API can be called and result can be displayed in the form 
+          of tables. Create loop through one table for each location. The modal is completely scrollable, it may not
+          be visible on computer just push it to the repo and it will be deployed automatically. Website is working
+          fine on mobile. -->
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
+          <table class="table is-striped is-bordered">
+            <tbody>
+              <tr>
+                <td><p><strong>Name</strong></p></td>
+                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Address</strong></p></td>
+                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
+              </tr>
+              <tr>
+                <td><p><strong>Distance</strong></p></td>
+                <td><p>2031m</p></td>
+              </tr>                                         
+            </tbody>
+          </table>
         </section>
-        </div>
+      </div>
     </div>
     <div class="card">
       <div class="card-content">

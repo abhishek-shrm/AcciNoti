@@ -2,16 +2,19 @@
   <div class="block">
     <Header></Header>
     <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>

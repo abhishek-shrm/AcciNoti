@@ -50,7 +50,7 @@
         <tr>
           <td><p>LPG Leak Helpline</p></td>
           <td><p><strong>1906</strong></p></td>
-        </tr>                                                  
+        </tr>                                            
       </tbody>
     </table>     
   </section>
