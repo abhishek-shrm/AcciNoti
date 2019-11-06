@@ -15,8 +15,6 @@ export default new Vuex.Store({
           state.lat=position.coords.latitude;
           state.lng=position.coords.longitude;
         });
-      }else{
-        console.log('Location not present');
       }
     }
   },
