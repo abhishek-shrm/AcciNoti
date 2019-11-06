@@ -65,7 +65,7 @@ export default {
             this.description='';
             flag=true;
             this.$refs.myVueDropzone.flashSuccess('Your report is registered successfully! Wait until help arrives');
-            BingAddress();
+            BingAddress2();
           }
         }
         if(flag==false){
