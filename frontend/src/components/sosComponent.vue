@@ -64,7 +64,8 @@ export default {
             //Put your API call here, use axios for that
             this.description='';
             flag=true;
-            this.$refs.myVueDropzone.flashSuccess('Your   report is registered successfully! Wait until help arrives');
+            this.$refs.myVueDropzone.flashSuccess('Your report is registered successfully! Wait until help arrives');
+            BingAddress();
           }
         }
         if(flag==false){
@@ -75,7 +76,7 @@ export default {
     }
   },
   computed: {
-    
+
   }
 }
 </script>
