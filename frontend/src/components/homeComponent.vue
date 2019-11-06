@@ -139,18 +139,40 @@
 
 <script>
 
-// import API from '../api' If using APIs remove this comment
+import axios from 'axios';
 
 export default {
   data(){
     return{
-      modalHead:''
+      modalHead:'',
+      dispList:''
     }
+  },
+  created(){
+    this.$store.commit('setLocation');
+  },
+  mounted(){
+    axios.post('https://outpost.mapmyindia.com/api/security/oauth/token',{
+      'grant_type': 'client_credentials',
+      'client_id':'DQMqcA9v_ZoFp2hAoT0VIH6U88jDzGjmoeBUK1HnzhF0mWj-m8pb9z6ad-i-DlT52EY2o3TFV-1bVGjavkTIkA==',
+      'client_secret':'DQMqcA9v_ZoFp2hAoT0VIH6U88jDzGjmoeBUK1HnzhF0mWj-m8pb9z6ad-i-DlT52EY2o3TFV-1bVGjavkTIkA=='
+    },{
+        headers:{'Content-Type': 'application/x-www-form- urlencoded'}
+    }).then(res=>{
+      console.log(res);
+    }).catch(err=>{
+      console.log(err);
+    });
   },
   methods: {
     modalActive(modalHeading){
       document.querySelector('.modal').classList.add('is-active');
       this.modalHead='Near By '+modalHeading;
+      // let req={
+      //   query:modalHeading.toLowerCase(),
+      //   current_lat:this.$store.state.lat,
+      //   current_lng:this.$store.state.lng
+      // };
     },
     modalClose(){
       document.querySelector('.modal').classList.remove('is-active');

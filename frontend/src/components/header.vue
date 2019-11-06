@@ -4,7 +4,7 @@
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a id="brand" class="navbar-item" href="/">
-          <img src="../assets/logo.png" width="112" height="52">
+          <img src="../assets/logo2.png" width="112" height="52">
         </a>
 
         <a role="button" class="navbar-burger burger" @click="toggleClass" aria-label="menu" aria-expanded="false"
