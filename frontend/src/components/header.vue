@@ -4,6 +4,7 @@
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a id="brand" class="navbar-item" href="/">
+          AccidentAlert
           <img src="../assets/logo.png" width="112" height="52">
         </a>
 
@@ -45,10 +46,10 @@ export default {
     toggleClass() {
       document.querySelector('.navbar-burger').classList.toggle('is-active');
       document.querySelector('.navbar-menu').classList.toggle('is-active');
-    }   
+    }
   },
   computed: {
-    
+
   }
 }
 </script>

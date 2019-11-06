@@ -10,118 +10,35 @@
          </div>
       </div>
     </div>
-    <div class="modal">
+    <div class="modal hospital">
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">{{modalHead}}</p>
+          <p class="modal-card-title"><center><h1>Near By Hospitals</h1></center></p>
           <button class="delete" @click="modalClose" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
-          <!-- Add your make API call in modalActive method so that
-          on each click of button API can be called and result can be displayed in the form 
-          of tables. Create loop through one table for each location. The modal is completely scrollable, it may not
-          be visible on computer just push it to the repo and it will be deployed automatically. Website is working
-          fine on mobile. -->
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
-          <table class="table is-striped is-bordered">
-            <tbody>
-              <tr>
-                <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Address</strong></p></td>
-                <td><p>Mission Chowk Old, Mehlana Road, Rai Industrial Area, Haryana, 131029</p></td>
-              </tr>
-              <tr>
-                <td><p><strong>Distance</strong></p></td>
-                <td><p>2031m</p></td>
-              </tr>                                         
-            </tbody>
-          </table>
+          <div id="resultHospital" >Result</div>
+          <div id="placesHospital">Hospital places</div>
         </section>
       </div>
     </div>
+
+    <div class="modal police">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title"><center><h1>Near By Police Station</h1></center></p>
+          <button class="delete" @click="modalClose" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div id="resultPolice" >Result</div>
+          <div id="placesPolice">Hospital places</div>
+        </section>
+      </div>
+    </div>
+
+
     <div class="card">
       <div class="card-content">
         <div class="columns">
@@ -149,15 +66,23 @@ export default {
   },
   methods: {
     modalActive(modalHeading){
-      document.querySelector('.modal').classList.add('is-active');
-      this.modalHead='Near By '+modalHeading;
+      if(modalHeading=="Hospitals")
+      {
+        document.querySelector('.hospital').classList.add('is-active');
+        this.modalHead='Near By '+modalHeading;
+      }
+      else {
+        document.querySelector('.police').classList.add('is-active');
+        this.modalHead='Near By '+modalHeading;
+      }
+
     },
     modalClose(){
       document.querySelector('.modal').classList.remove('is-active');
     }
   },
   computed: {
-    
+
   }
 }
 </script>
