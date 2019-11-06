@@ -180,7 +180,7 @@ export default {
     margin-bottom: 1em;
     border-radius: 25px 25px;
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0.5em;
 
     .card-content{
       i{
