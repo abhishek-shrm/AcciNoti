@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="block">
-       <div class="card">
-         <div class="card-content">
+      <div class="card">
+        <div class="card-content">
           <h1 class="title is-5">To report an accident press SOS Button</h1>
           <router-link :to="{name:'SOS'}" class="button is-danger is-rounded is-large sos-button" tag="button">
             SOS
@@ -182,11 +182,6 @@ export default {
     display: inline-block;
     margin-left: 1em;
 
-    .card-image {
-      img {
-        border-radius: 25px 25px 0 0;
-      }
-    }
     .card-content{
       i{
         margin-right: 5px;

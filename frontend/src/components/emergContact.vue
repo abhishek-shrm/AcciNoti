@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="block">
-      <h1 class="title is-3">Emergency Contacts</h1>
+      <h1 class="title is-4">Emergency Contacts</h1>
     </div>
     <table class="table is-striped is-bordered">
       <thead>
