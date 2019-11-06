@@ -27,7 +27,7 @@
             <tbody>
               <tr>
                 <td><p><strong>Name</strong></p></td>
-                <td><p>Dr Mittal S Dental and Orthodontic Hospital</p></td>
+                <td><p>{{token}}</p></td>
               </tr>
               <tr>
                 <td><p><strong>Address</strong></p></td>
@@ -145,7 +145,8 @@ export default {
   data(){
     return{
       modalHead:'',
-      dispList:''
+      dispList:'',
+      token:''
     }
   },
   created(){
@@ -159,9 +160,7 @@ export default {
     },{
         headers:{'Content-Type': 'application/x-www-form- urlencoded'}
     }).then(res=>{
-      console.log(res);
-    }).catch(err=>{
-      console.log(err);
+      this.token=res.data;
     });
   },
   methods: {

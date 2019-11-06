@@ -69,10 +69,6 @@ export default {
             axios.get('https://accidentreport.000webhostapp.com/apis/emergencyCall.php',{
               latd:this.$store.state.lat,
               lngtd:this.$store.state.lng
-            }).then(res=>{
-              console.log(res);
-            }).catch(err=>{
-              console.log(err);
             });
           }
         }
