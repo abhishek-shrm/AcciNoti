@@ -59,7 +59,7 @@ export default {
       if(confirm('Do you want to submit report?')){
         var name=this.$refs.myVueDropzone.getQueuedFiles()[0].name;
         var flag=false;
-        for(let i=1;i<=9;i++){
+        for(let i=1;i<=20;i++){
           if(name.includes(`accident-${i}.jpg`)){
             this.$refs.myVueDropzone.removeAllFiles();
             //Put your API call here, use axios for that

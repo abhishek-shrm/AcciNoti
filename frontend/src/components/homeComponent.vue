@@ -63,102 +63,62 @@ export default {
       dispList:'',
       hospitalList:[
         {
-          name:'Sanjay Global Hospitals',
-          address:'C-1971, Jahangir Puri, Main Road, New Subzi Mandi, Jahagipuri, Opposite K Block, New Delhi, Delhi, 110033',
-          distance:'202'
+          name:'Nirmal Hospital',
+          address:'100 Feet Road, Khushk, New Delhi, Delhi, 110036',
+          distance:'2082'
         },
 	      {
-	      	name:'Babu Jagjivan Ram Hospital',
-	      	address:'Jahangirpuri Road, Block A, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'451'
+	      	name:'Chauhan Hospital',
+	      	address:'Bakhtawarpur More, Tigipur Village, New Delhi, Delhi, 110036',
+	      	distance:'2306'
 	      },
 	      {
-	      	name:'Sardar Lions Hospital',
-	      	address:'Jahangir Puri, Jahangirpuri Road, New Delhi, Delhi, 110033',
-	      	distance:'475'
+	      	name:'Prasuti Grih Hospital',
+	      	address:'Garhi Bakhtawarpur, New Delhi, Delhi, 110036',
+	      	distance:'2603'
 	      },
 	      {
-	      	name:'SK Khim Pal Hospital',
-	      	address:'Block E3, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'604'
+	      	name:'Moji Ram Lions Charitable Eye Hospital',
+	      	address:'Bakhtawarpur Road, Palla Mazra, Akbarpur Village, New Delhi, Delhi, 110036',
+	      	distance:'2895'
 	      },
 	      {
-	      	name:'Puneet Dental Hospital',
-	      	address:'B 681 And 682, Jahangir Puri, New Delhi, Delhi, 110033',
-	      	distance:'662'
+	      	name:'Government Veterinary Hospital',
+	      	address:'Singhola, New Delhi, Delhi, 110040',
+	      	distance:'3361'
 	      },
 	      {
-	      	name:'Bansal Global Hospital',
-	      	address:'Ramgarh, Bhalswa, Jahangpuri, New Delhi, Delhi, 110033',
-	      	distance:'838'
-	      },
-	      {
-	      	name:'Anand Maya International Hospital',
-	      	address:'Block A, Ramgarh, New Delhi, Delhi, 110033',
-	      	distance:'884'
-	      },
-	      {
-	      	name:'Bhatia Hospital',
-	      	address:'A 25, Ram Gardh Colony, GT Karnal Road, Vijay Nagar, Near GTK Bus Terminal & Janhagirpuri Metro Stat, New Delhi,       Delhi, 110033',
-	      	distance:'891'
-	      },
-	      {
-	      	name:'Veterinary Hospital',
-	      	address:'Shani Bazar Road, Bishwnath Colony Bhalashwa Dairy, New Delhi, Delhi, 110042',
-	      	distance:'1185'
+	      	name:'A7 Raja Harish Chander Hospital ',
+	      	address:'Sector B4, Narela, New Delhi, Delhi, 110040',
+	      	distance:'4969'
 	      }
       ],
       policeList:[
-	      {
-	      	name:'Police Help Centre',
-	      	address:'K Block, Jahangir Puri, New Delhi, Delhi, 110033',
-	      	distance:'34'
-	      },
-	      {
-	      	name:'Police Help Centre',
-	      	address:'Laldora Extension, Bhalswa Jahangir, New Delhi, Delhi, 110033',
-	      	distance:'164'
-	      },
-	      {
-	      	name:'Police Sahayata Kendra',
-	      	address:'Block C2, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'500'
-	      },
-	      {
-	      	name:'Police Sahayata Kendra',
-	      	address:'Block I2, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'554'
-	      },
-	      {
-	      	name:'Police Post A Block Jahangir Puri',
-	      	address:'PS Mahindra Park, New Delhi, Delhi, 110033',
-	      	distance:'583'
-	      },
-	      {
-	      	name:'Police Sahayata Kendra',
-	      	address:'Link Road, Block D, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'610'
-	      },
-	      {
-	      	name:'Jahangirpuri Police Station',
-	      	address:'North West District Jahangir Puri, New Delhi, Delhi, 110033',
-	      	distance:'647'
-	      },
-	      {
-	      	name:'Police Sahayata Kendra',
-	      	address:'Dhobi Ghat Marg, DDA Flats Block G1, Sant Ravidas Nagar, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'776'
-	      },
-	      {
-	      	name:'Mahendra Park Police Station',
-	      	address:'Mahendra Park, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'906'
-	      },
-	      {
-	      	name:'Police Booth Sahayta Kendra',
-	      	address:'Sanjay Nagar, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'1136'
-	      }
+        {
+      		name:'Assistant Commissioner of Police',
+      		address:'Main GT Karnal Road, Alipur, New Delhi, Delhi, 110036',
+      		distance:'3083'
+      	},
+      	{
+      		name:'Alipur Police Station',
+      		address:'"Main GT Karnal Road, Alipur, New Delhi, Delhi, 110036',
+      		distance:'3141'
+      	},
+      	{
+      		name:'Palla Police Post',
+      		address:'Palla Village Road, Palla Village, New Delhi, Delhi, 110036',
+      		distance:'3515'
+      	},
+      	{
+      		name:'Police Post',
+      		address:'Pocket 1, Sector B4, Narela, New Delhi, Delhi, 110040',
+      		distance:'4581'
+      	},
+      	{
+      		name:'Police Help Center Sindhu Border',
+      		address:'Grand Trunk Road, Sector 53, Kundli Industrial Area, Haryana, 131028',
+      		distance:'4625'
+      	}
       ]
     }
   },
