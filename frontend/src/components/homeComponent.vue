@@ -73,11 +73,6 @@ export default {
 	      	distance:'451'
 	      },
 	      {
-	      	name:'Sunil Ambulance Service',
-	      	address:'Jahangirpuri Road, Block E4, Jahangirpuri, New Delhi, Delhi, 110033',
-	      	distance:'452'
-	      },
-	      {
 	      	name:'Sardar Lions Hospital',
 	      	address:'Jahangir Puri, Jahangirpuri Road, New Delhi, Delhi, 110033',
 	      	distance:'475'
