@@ -6,7 +6,7 @@
     <div class="card">
       <div class="card-content">
         <p>
-          "Accident Call" is a life saving project which saves people's life by making Emergency services reach faster to their location. It also helps Police to come prepared to handle the situation better. This project is solely developed and created by <strong>AnK</strong> which is a collaboration between <strong>Abhishek Sharma</strong> and <strong>Kanishk Gupta</strong> .
+          "AcciNoti" is a life saving project which saves people's life by making Emergency services reach faster to their location. It also helps Police to come prepared to handle the situation better. This project is solely developed and created by <strong>AnK</strong> which is a collaboration between <strong>Abhishek Sharma</strong> and <strong>Kanishk Gupta</strong> .
         </p>
       </div>
     </div>
